@@ -1,6 +1,6 @@
 {
-    "name": "pedhot/nepotism-demo",
-    "description": "Demo for NepotismFree DI",
+    "name": "pedhot-dev/nepotismfree-di-example",
+    "description": "Professional example of clean DI with NepotismFree DI",
     "type": "project",
     "require": {
         "pedhot-dev/nepotismfree-di": "*"

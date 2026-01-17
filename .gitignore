@@ -1,3 +1,10 @@
 /vendor/
-.idea
-.vscode
+composer.lock
+.php-cs-fixer.cache
+.phpunit.result.cache
+
+# Editor files
+.idea/
+.vscode/
+*.swp
+*.swo

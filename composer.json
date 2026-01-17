@@ -1,6 +1,7 @@
 {
     "name": "pedhot-dev/nepotismfree-di-example",
     "description": "Professional example of clean DI with NepotismFree DI",
+    "license": "MIT",
     "type": "project",
     "require": {
         "pedhot-dev/nepotismfree-di": "*"

@@ -24,3 +24,7 @@ php example.php
 - **Explicit Aggregate**: This example uses a `NotificationChannelCollection` to group channels. While the DI container supports tags, we intentionally avoid closure-based tag resolution in the configuration to ensure the dependency graph remains statically analyzable and the application remains container-unaware.
 - **Concrete Resolution**: The collection depends on concrete channel implementations (`EmailChannel`, `DiscordChannel`) to comply with the library's current constructor injection capabilities without resorting to service locator patterns.
 - **Immutability**: The container is built once at bootstrap and is not accessible within the application services.
+
+## License
+MIT
+

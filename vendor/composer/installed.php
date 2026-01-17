@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'pedhot/nepotism-demo',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => null,
+        'type' => 'project',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'pedhot-dev/nepotismfree-di' => array(
+            'pretty_version' => 'v0.1.0-alpha',
+            'version' => '0.1.0.0-alpha',
+            'reference' => '5096db26ba56477edce932df6ab2e2f83e056bbe',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../pedhot-dev/nepotismfree-di',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'pedhot/nepotism-demo' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => null,
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'psr/container' => array(
+            'pretty_version' => '2.0.2',
+            'version' => '2.0.2.0',
+            'reference' => 'c71ecc56dfe541dbd90c5360474fbc405f8d5963',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../psr/container',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

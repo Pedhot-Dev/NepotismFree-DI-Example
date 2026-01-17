@@ -1,0 +1,21 @@
+{
+    "name": "pedhot/nepotism-demo",
+    "description": "Demo for NepotismFree DI",
+    "type": "project",
+    "require": {
+        "pedhot-dev/nepotismfree-di": "*"
+    },
+    "authors": [
+        {
+            "name": "Antigravity",
+            "email": "antigravity@google.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

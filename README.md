@@ -2,6 +2,25 @@
 
 This repository demonstrates the correct implementation of an event-driven notification system using the `nepotismfree-di` library. It focuses on maintaining strict architectural boundaries and clean Dependency Injection principles.
 
+## 🔗 About This Example
+
+This repository is a **practical example** of using the
+**NepotismFree-DI** dependency injection container in a real application.
+
+👉 **Main library:**  
+https://github.com/Pedhot-Dev/NepotismFree-DI
+
+This example demonstrates how the container is intended to be used in practice,
+including:
+
+- Constructor-only dependency injection
+- Clear separation between Application, Domain, and Infrastructure layers
+- Avoidance of service locator and closure-based wiring
+- Honest design trade-offs based on current container capabilities
+
+This repository does **not** extend or modify the container itself.
+It exists solely to show a clean, realistic usage pattern.
+
 ## The Problem
 In an event-driven system, a single event (e.g., `UserRegistered`) often needs to trigger multiple actions (Email, Discord, Logging). Manually instantiating every channel inside an `EventDispatcher` creates tight coupling and violates the Single Responsibility Principle.
 

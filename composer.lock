@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b6539a99bb27889a3c623116822685a4",
+    "content-hash": "5b0d4b08697f4f5f34e9af1d3435477f",
     "packages": [
         {
             "name": "pedhot-dev/nepotismfree-di",

@@ -4,7 +4,7 @@
     "license": "MIT",
     "type": "project",
     "require": {
-        "pedhot-dev/nepotismfree-di": "*"
+        "pedhot-dev/nepotismfree-di": "0.1.0-alpha"
     },
     "authors": [
         {
